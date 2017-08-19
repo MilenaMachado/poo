@@ -1,0 +1,21 @@
+Escreva um aplicativo que lê dois inteiros, determina se o primeiro é um múltiplo do segundo.
+
+import java.util.Scanner;
+
+public class Ex4 {
+    public static void main (String args[]){
+        Scanner entrada1 = new Scanner (System.in);
+        Scanner entrada2 = new Scanner (System.in);
+        int x, y; 
+        
+        System.out.print ("Digite o primeiro numero: ");
+        x = entrada1.nextInt();
+        System.out.print ("Digite o segundo numero: ");
+        y = entrada2.nextInt();
+        
+        if (x%y == 0)
+            System.out.print ("O primeiro é multiplo do segundo");
+        else
+           System.out.print ("O primeiro não é multiplo do segundo"); 
+    }
+}
