@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Ex2 {
+    public static void main (String args[]){
+        Scanner entrada1 = new Scanner (System.in);
+        Scanner entrada2 = new Scanner (System.in);
+        int x, y; 
+        
+        System.out.print ("Digite o primeiro numero: ");
+        x = entrada1.nextInt();
+        System.out.print ("Digite o segundo numero: ");
+        y = entrada2.nextInt();
+        
+        System.out.printf ("%s %d %n", "Resultado: ", x+y, "\n");
+        System.out.printf ("%s %f %n", "Resultado: ", (float)(x+y)/2, "\n");
+        
+        if (x < y)
+           System.out.printf ("%d %d %n", x, y, "\n");
+        else
+           System.out.printf ("%d %d %n", y, x, "\n"); 
+    }
+}
