@@ -1,3 +1,6 @@
+Escreva um aplicativo que solicita ao usuário inserir dois números inteiros e imprima a soma, 
+subtração, divisão e produto desses dois números.
+
 import java.util.Scanner;
 
 public class Ex1 {
